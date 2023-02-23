@@ -1,0 +1,3 @@
+/* Alfred Ripoll
+stra.c
+*/
