@@ -2,7 +2,7 @@ Assignment 2 readme File
 
 ------------------------------------------------------------------------
 What is your name?
-
+Alfred Ripoll, IV
 
 
 ------------------------------------------------------------------------
@@ -12,7 +12,17 @@ in the "Policies" web page (also available on armlab in the file
 ~cos217/AuthorizedSourcesList ) to this section of the readme file,
 and edit it as appropriate.
 
+The course's lectures.
 
+The course's precepts.
+
+The course's website.
+
+The course's textbooks.
+
+The course's current staff members outside of class time through office hours.
+
+Current Intro Lab TAs through visits to the Intro COS Lab.
 
 ------------------------------------------------------------------------
 What unauthorized sources of information did you use to complete the
@@ -26,19 +36,19 @@ interaction, may additionally require the interaction being reported
 to the Committee on Discipline. Write "None" if you used no
 unauthorized sources of information.
 
-
+None
 
 ------------------------------------------------------------------------
 What is your assessment of the assignment? Was it helpful? Was it fun?
 
-
+It was interesting and I gained more knowledge on pointers
 
 ------------------------------------------------------------------------
 (optional) What information can you provide about your submission that
 will help your grader to grade it in the most favorable light? In
 particular, what bugs are in your submission?
 
-
+Everything was able to be compiled and submitted on time despite me losing a week to strep throat
 
 ------------------------------------------------------------------------
 What warnings does splint generate on stra.c, and what are your
@@ -46,6 +56,7 @@ disagreements with them? Copy the splint warnings here, and express your
 disagreement after each warning. If there are no warnings, then write
 "None."
 
+None
 
 
 ------------------------------------------------------------------------
@@ -54,7 +65,7 @@ disagreements with them? Copy the critTer warnings here, and express
 your disagreement after each warning. If there are no warnings, then
 write "None."
 
-
+Level 4 nested loop, it was low priority. I believe the nesting loop was necessary for Str_search to check if the full needle is within the haistack while the haystack and the needle had an equal character
 
 ------------------------------------------------------------------------
 What warnings does splint generate on strp.c, and what are your
@@ -62,7 +73,7 @@ disagreements with them? Copy the splint warnings here, and express your
 disagreement after each warning. If there are no warnings, then write
 "None."
 
-
+None
 
 ------------------------------------------------------------------------
 What warnings does critTer generate on strp.c, and what are your
@@ -70,6 +81,7 @@ disagreements with them? Copy the critTer warnings here, and express
 your disagreement after each warning. If there are no warnings, then
 write "None."
 
+None
 
 
 ------------------------------------------------------------------------
@@ -78,7 +90,7 @@ disagreements with them? Copy the splint warnings here, and express your
 disagreement after each warning. If there are no warnings, then write
 "None."
 
-
+None
 
 ------------------------------------------------------------------------
 What warnings does critTer generate on replace.c, and what are your
@@ -86,13 +98,13 @@ disagreements with them? Copy the critTer warnings here, and express
 your disagreement after each warning. If there are no warnings, then
 write "None."
 
-
+None
 
 ------------------------------------------------------------------------
 Is it possible for Str_copy or Str_concat to call assert to verify
 that the destination memory area specified by the caller is large
 enough? Explain.
 
-
+It is impossible to do so. Str_copy and Str_concet cannot specify the length of the destination memory. If sizeof is used, the input values will always be 8 due to them being pointers.
 
 ------------------------------------------------------------------------
